@@ -9,10 +9,12 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         System.out.println("input number: ");
         int input = scan.nextInt();
+        int Asum = 0;
         for (int i = 0; i <= input; i++) {
-            System.out.println(i);
+
+            Asum = Asum + i;
+
         }
-
-
+        System.out.println("Sum = " + Asum);
     }
 }
